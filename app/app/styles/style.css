@@ -23,6 +23,22 @@ body {
     background-color: var(--background-color);
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  gap: 32px;
+}
+li {
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #181818;
+}
 .error {
   max-width: 30rem;
   margin: 3rem auto;
@@ -64,9 +80,6 @@ body {
     -webkit-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.22);
     -moz-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.22);
 }
-
-
-
 .go-btn {
     background-color: var(--go-btn-bg);
     padding: var(--go-btn-padding-left) var(--go-btn-padding-right);
@@ -78,8 +91,6 @@ body {
 .go-btn:hover {
     background-color: var(--go-btn-on-hover-color);
 }
-
-
 
 #note-list {
   max-width: 68rem;
